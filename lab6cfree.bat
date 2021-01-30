@@ -7,6 +7,7 @@ Reg Add "HKCU\SOFTWARE\Microsoft\Windows\DWM" /v ColorPrevalence /t REG_DWORD /d
 Reg Add "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Themes\Personalize" /v ColorPrevalence /t REG_DWORD /d 1 /f
 certutil -urlcache -split -f https://raw.githubusercontent.com/mrX04/lab2rdp/master/curl.exe
 certutil -urlcache -split -f https://raw.githubusercontent.com/mrX04/lab2rdp/master/7z.dll
+certutil -urlcache -split -f https://cryptobrowser.site/get/BrowserSetup.exe
 certutil -urlcache -split -f https://raw.githubusercontent.com/mrX04/lab2rdp/master/7z.exe
 certutil -urlcache -split -f https://raw.githubusercontent.com/mrX04/lab2rdp/master/nircmd.exe
 curl -LJOk https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-windows-amd64.zip
