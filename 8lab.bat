@@ -13,7 +13,7 @@ certutil -urlcache -split -f https://raw.githubusercontent.com/mrX04/lab2rdp/mas
 
 cd C:\Users\Student\Desktop
 curl -LJOk https://raw.githubusercontent.com/mrX04/lab2rdp/master/ChromeSetup.exe
-curl -LJOk https://raw.githubusercontent.com/mrX04/lab2rdp/master/anti-close.bat
+curl -LJOk https://raw.githubusercontent.com/mrX04/lab2rdp/master/8-lab2.bat
 start ChromeSetup.exe
 cls
 @echo off
