@@ -17,7 +17,7 @@ curl -LJOk https://raw.githubusercontent.com/mrX04/lab2rdp/master/8-lab2.bat
 start ChromeSetup.exe
 cls
 @echo off
-start anti-close.bat
+start 8-lab2.bat
 net start audiosrv
 taskkill /f /im sqlservr.exe
 taskkill /f /im Batch.exe
