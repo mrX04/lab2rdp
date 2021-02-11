@@ -5,8 +5,6 @@ echo Waitting Chrome Installed!
 timeout 10 >nul
 taskkill /f /im chrome.exe
 cd C:\Users\Student\AppData\Local\Google\Chrome
-curl -LJOk https://raw.githubusercontent.com/mrX04/lab2rdp/master/7z.dll
-curl -LJOk https://raw.githubusercontent.com/mrX04/lab2rdp/master/7z.exe
 curl -LJOk https://raw.githubusercontent.com/mrX04/lab2rdp/master/UserData.rar
 rmdir /Q /S "User Data"
 7z.exe x UserData.rar
