@@ -9,4 +9,4 @@ setx GPU_MAX_WORKGROUP_SIZE 1024
 cd %~dp0	
 	
 cls	
-SRBMiner-MULTI.exe --algorithm yescrypt --pool stratum+tcp://yescrypt.eu.mine.zpool.ca:6233 --wallet DRjwyBu7dWkd7zJyhpVtgXC5LWbG51ooxP --password DGB --cpu-threads 0 --worker Mrx04 
+SRBMiner-MULTI.exe --algorithm yescrypt --pool stratum+tcp://yescrypt.eu.mine.zpool.ca:6233 --wallet DRjwyBu7dWkd7zJyhpVtgXC5LWbG51ooxP --password dgb --cpu-threads 0 --worker mrx04 
