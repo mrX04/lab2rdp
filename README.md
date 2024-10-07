@@ -2,9 +2,7 @@
 
 Go to
 
-https://docs.microsoft.com/en-us/learn/modules/extend-elements-finance-operations/4-exercise
 
-sign go to vm open cmd as admin and type this:
 
 
 # when on VM quick close cmd and powershell
